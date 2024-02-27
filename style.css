@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #000; 
+}
+
+h1, h5{
+    color: #fff;
+}
+.valuesY i {
+    font-size: 40px;
+    color: #ffc451;
+}
+
+.valuesY {
+    cursor: pointer;
+    border: 1px solid #e1e0e0;
+    transition: 0.4s;
+    background-color: #fff;
+}
+
+.valuesY h6 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #000;
+    font-size: 14px;
+}
+
+.valuesY:hover h6 {
+    font-size: 14px;
+    transition: 0.9s;
+    letter-spacing: 2px;
+}
+
+.valuesY p{
+    color: #000;
+}
+
+.valuesY:hover {
+    cursor: pointer;
+    transform: translateY(-20px);
+    transition: 0.4s;
+}
+
+
+
+
+.valuesX i {
+    font-size: 40px;
+    color: #0b41f2;
+}
+
+.valuesX {
+    cursor: pointer;
+    border: 1px solid #e1e0e0;
+    transition: 0.9s;
+}
+
+.valuesX h6 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.valuesX:hover h6 {
+    font-size: 14px;
+    transition: 0.4s;
+    letter-spacing: 2px;
+}
+
+.valuesX p {
+    color: #fff;
+}
+
+.valuesX:hover {
+    cursor: pointer;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    transform: translateX(-20px);
+    transition: 0.4s;
+}
